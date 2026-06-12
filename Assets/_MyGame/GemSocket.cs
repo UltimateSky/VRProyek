@@ -14,7 +14,7 @@ public class GemSocket : MonoBehaviour
             {
                 Debug.Log("BENAR - gem masuk!");
 
-                // matikan physics biar gak glitch
+                // Matikan physics agar tidak glitch / terlempar
                 Rigidbody rb = gem.GetComponent<Rigidbody>();
                 if (rb != null)
                 {
@@ -22,14 +22,20 @@ public class GemSocket : MonoBehaviour
                     rb.useGravity = false;
                 }
 
-                // snap ke tengah plat
+                // Snap objek gem tepat ke tengah plat altar
                 gem.transform.position = transform.position;
                 gem.transform.SetParent(transform);
 
-                // update objective
-                if (GemObjectiveManagerAlr.Instance != null)
+                // Mencari manager menggunakan fungsi Unity modern (Unity 6+)
+                GemObjectiveManager objectiveManager = Object.FindFirstObjectByType<GemObjectiveManager>();
+                
+                if (objectiveManager != null)
                 {
-                    GemObjectiveManagerAlr.Instance.CollectGem(socketColor);
+                    objectiveManager.PlaceGem(socketColor);
+                }
+                else
+                {
+                    Debug.LogWarning("GemObjectiveManager tidak ditemukan di Scene!");
                 }
             }
             else

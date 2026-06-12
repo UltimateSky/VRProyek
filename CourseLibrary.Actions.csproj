@@ -92,7 +92,6 @@
     <Compile Include="Assets\_Course Library\Scripts\Actions\ToggleRay.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Actions\ConvertValueToHue.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Actions\GemData.cs" />
-    <Compile Include="Assets\_Course Library\Scripts\Actions\GemSocket.cs" />
     <Compile Include="Assets\_Course Library\Scripts\Actions\RemoveObjectsWithTag.cs" />
   </ItemGroup>
   <ItemGroup>
