@@ -6036,8 +6036,7 @@ RectTransform:
   m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
-  m_Children:
-  - {fileID: 1255411805}
+  m_Children: []
   m_Father: {fileID: 21782544}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
@@ -6085,7 +6084,7 @@ MonoBehaviour:
     m_SelectedTrigger: Selected
     m_DisabledTrigger: Disabled
   m_Interactable: 1
-  m_TargetGraphic: {fileID: 1255411806}
+  m_TargetGraphic: {fileID: 0}
   toggleTransition: 1
   graphic: {fileID: 947759702}
   m_Group: {fileID: 0}
@@ -6980,9 +6979,6 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 7483301358863403658, guid: 956e8d9a620d8e249b2ac25a8164cccf, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1244540082}
-    - targetCorrespondingSourceObject: {fileID: 7483301358863403658, guid: 956e8d9a620d8e249b2ac25a8164cccf, type: 3}
-      insertIndex: -1
-      addedObject: {fileID: 1244540083}
     - targetCorrespondingSourceObject: {fileID: -3286818610424599165, guid: 956e8d9a620d8e249b2ac25a8164cccf, type: 3}
       insertIndex: -1
       addedObject: {fileID: 735254756}
@@ -7026,7 +7022,7 @@ RectTransform:
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children: []
-  m_Father: {fileID: 1255411805}
+  m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0.5, y: 0.5}
   m_AnchorMax: {x: 0.5, y: 0.5}
@@ -7449,6 +7445,38 @@ CanvasRenderer:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 987609086}
   m_CullTransparentMesh: 1
+--- !u!1 &992555889 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8604530273138394438, guid: beef3bcde1610f04aa96275436147bb9, type: 3}
+  m_PrefabInstance: {fileID: 1516432647}
+  m_PrefabAsset: {fileID: 0}
+--- !u!54 &992555894
+Rigidbody:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 992555889}
+  serializedVersion: 5
+  m_Mass: 1
+  m_LinearDamping: 0
+  m_AngularDamping: 0.05
+  m_CenterOfMass: {x: 0, y: 0, z: 0}
+  m_InertiaTensor: {x: 1, y: 1, z: 1}
+  m_InertiaRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_IncludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ExcludeLayers:
+    serializedVersion: 2
+    m_Bits: 0
+  m_ImplicitCom: 1
+  m_ImplicitTensor: 1
+  m_UseGravity: 1
+  m_IsKinematic: 0
+  m_Interpolate: 0
+  m_Constraints: 0
+  m_CollisionDetection: 1
 --- !u!114 &1018749156
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -10676,6 +10704,9 @@ PrefabInstance:
     - targetCorrespondingSourceObject: {fileID: 8605280438373493602, guid: beef3bcde1610f04aa96275436147bb9, type: 3}
       insertIndex: -1
       addedObject: {fileID: 1590778043}
+    - targetCorrespondingSourceObject: {fileID: 8604530273138394438, guid: beef3bcde1610f04aa96275436147bb9, type: 3}
+      insertIndex: -1
+      addedObject: {fileID: 992555894}
     - targetCorrespondingSourceObject: {fileID: 8605318971683936502, guid: beef3bcde1610f04aa96275436147bb9, type: 3}
       insertIndex: -1
       addedObject: {fileID: 574329497}
@@ -18348,3 +18379,4 @@ SceneRoots:
   - {fileID: 934686721}
   - {fileID: 201440724}
   - {fileID: 766744234}
+  - {fileID: 947759701}
