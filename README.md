@@ -25,14 +25,10 @@ An immersive VR horror game built with Unity XR Interaction Toolkit, featuring a
 - **XR Framework** — Unity XR Interaction Toolkit / OpenXR
 - **Systems** — VR Locomotion, Grabbable Objects, Socket Interactors, Haptic Feedback
 
-## 👥 Team
-
 Developed as a collaborative campus project at Universitas Multimedia Nusantara (UMN).
 
 | Name | Role |
-|------|------|
 | Sean Rizkiardy Oktosera | VR Programmer |
-| [Teammate] | [Role] |
 
 ## 📋 Requirements
 
