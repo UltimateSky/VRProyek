@@ -29,6 +29,9 @@ Developed as a collaborative campus project at Universitas Multimedia Nusantara 
 
 | Name | Role |
 | Sean Rizkiardy Oktosera | VR Programmer |
+| Reynard Geovanni | VR Design |
+| Marcello Zefanya Albertz | VR Design |
+| Ferry Irawan | VR Programmer |
 
 ## 📋 Requirements
 
